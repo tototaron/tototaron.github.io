@@ -21,9 +21,16 @@ header {
 
 header h1 {
     margin: 0 0 15px 0;
-    font-size: 24px;
-    color: #002d6b; /* 濃い紺色で引き締める */
-    letter-spacing: 0.05em;
+    /* 文字サイズを大きく（前の36pxからさらに調整可） */
+    font-size: 36px; 
+    /* 信頼感のある濃紺 */
+    color: #002d6b; 
+    /* 明朝体に設定 */
+    font-family: 'Noto Serif JP', serif; 
+    /* 文字の間隔を少し広げて優雅に */
+    letter-spacing: 0.1em; 
+    /* 太字にする */
+    font-weight: 700;
 }
 
 nav p {
