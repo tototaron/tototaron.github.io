@@ -1,0 +1,80 @@
+/* 全体の設定 */
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* ヘッダー・ナビゲーション */
+header {
+    background-color: #003366; /* 信頼感のある濃紺 */
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+nav p {
+    margin: 0;
+}
+
+nav a {
+    color: #ffcc00; /* リンクを目立たせる黄色 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* メインコンテンツ */
+main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-left: 5px solid #003366;
+    padding-left: 15px;
+    color: #003366;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #004d99;
+    margin-top: 30px;
+}
+
+/* リスト・説明文 */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* 料金目安の強調 */
+strong {
+    color: #d9534f; /* 注意を引く赤系 */
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+}
